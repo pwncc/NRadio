@@ -1,0 +1,26 @@
+{
+	"name": "spaced",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "rbxtsc",
+		"watch": "rbxtsc -w"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@rbxts/compiler-types": "^2.3.0-types.0",
+		"@rbxts/types": "^1.0.684",
+		"typescript": "^5.0.4"
+	},
+	"dependencies": {
+		"@rbxts/pretty-roact-hooks": "^2.0.1",
+		"@rbxts/roact": "^1.4.4-ts.0",
+		"@rbxts/roact-hooked": "^2.4.0",
+		"@rbxts/services": "^1.5.1",
+		"@rbxts/signal": "^1.1.1",
+		"@rbxts/t": "^3.1.0"
+	}
+}

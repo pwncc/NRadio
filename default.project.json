@@ -1,0 +1,50 @@
+{
+	"name": "SPACED",
+	"globIgnorePaths": [
+		"**/package.json",
+		"**/tsconfig.json"
+	],
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"NRadio": {
+				"$path": "src/ReplicatedStorage",
+				"$ignoreUnknownInstances": true
+			},
+			"Packages": {
+				"$path": "Packages"
+			},
+			"NexusInstance": {
+				"$path": "src/NexusInstance"
+			}
+		},
+		"ServerStorage": {
+			"$className": "ServerStorage",
+			"NRadio": {
+				"$path": "src/ServerStorage"
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"NRadio": {
+				"$path": "src/ServerScriptService"
+			}
+		},
+		"StarterPack": {
+			"$className": "StarterPack",
+			"NRadio": {
+				"$path": "src/StarterPack"
+			}
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterCharacterScripts": {
+				"$path": "src/Player/StarterCharacter/"
+			},
+			"StarterPlayerScripts": {
+				"$path": "src/Player/StarterPlayer/"
+			}
+		}
+	}
+}
